@@ -1,0 +1,25 @@
+{
+  "name": "n1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --exec serve src",
+    "start0": "serve src",
+    "start1": "nodemon --exec 'browser-sync start --server ./src --files \"**/*.html, **/*.css, **/*.js\"'",
+    "test": "jest --verbose --coverage",
+    "test0": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.5.0",
+    "serve": "^14.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.5",
+    "browser-sync": "^2.29.1",
+    "nodemon": "^2.0.22"
+  }
+}
