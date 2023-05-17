@@ -2,13 +2,21 @@
 
 Example of unit tests with node and jest
 
-1. install __dependencies__ ```npm install```
+## install
+1. install __dependencies__ ```npm install
+2. run __tests__ ```run test```
 
-2. install __jest__ ```npm install --save-dev jest```
+## use
+```bash
 
-3. install __babel__ ```npm install --save-dev @babel/core @babel/preset-env```
+# jest
+npm install --save-dev jest
 
-4. create __.eslintrc__
+# babel
+npm install --save-dev @babel/core @babel/preset-env
+```
+
+create __.eslintrc__
 ```
 {
   "env": {
@@ -17,16 +25,18 @@ Example of unit tests with node and jest
 }
 ```
 
-5. create __.babelrc__
+create __.babelrc__
 ```
 {
   "presets": ["@babel/preset-env"]
 }
 ```
 
-6. add script en __package.json__ ```"test": "jest --verbose --coverage"```
+add script en __package.json__
+```
+"test": "jest --verbose --coverage"
+```
 
-7. run tests ```run test```
 
 ## Author
 
