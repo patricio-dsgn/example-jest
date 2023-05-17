@@ -1,3 +1,5 @@
+<img src="./readme/logo.svg" width="100px" />
+
 # Example unit Tests
 
 Example of unit tests with node and jest
